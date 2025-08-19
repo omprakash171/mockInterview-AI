@@ -1,12 +1,16 @@
 /* Navbar Base */
 .navbar {
   background: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  padding: 12px 20px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); */
+  height: 50px; /* fixed height */
+  padding: 12px 20px; /* only horizontal padding */
   position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
+  display: flex;
+  align-items: center; /* vertically center items */
+  padding-top: 30px;
 }
 
 /* Container */
@@ -14,6 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }

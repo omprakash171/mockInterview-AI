@@ -1,6 +1,12 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 import "./App.css";
 
-const App = () => <Header />;
+const App = () => (
+  <>
+    <Header />;
+    <Hero />
+  </>
+);
 
 export default App;
