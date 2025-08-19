@@ -83,6 +83,7 @@
 }
 
 /* Mobile Menu */
+/* Mobile Menu */
 .mobile-menu {
   display: flex;
   flex-direction: column;
@@ -90,12 +91,21 @@
   background: #ffffff;
   padding: 20px;
   border-top: 1px solid #e0e0e0;
+
+  /* Full-width overlay style */
+  position: absolute;
+  top: 60px; /* height of navbar */
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .mobile-menu a {
   text-decoration: none;
   color: #02424a;
-  font-size: 16px;
+  font-size: 18px;
+  padding: 10px 0;
 }
 
 .mobile-btn {
