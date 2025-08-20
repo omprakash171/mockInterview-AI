@@ -3,7 +3,7 @@
   background: #ffffff;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); */
   height: 50px; /* fixed height */
-  padding: 12px 20px; /* only horizontal padding */
+  padding: 12px 20px; 
   position: sticky;
   top: 0;
   width: 100%;
